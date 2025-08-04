@@ -1,0 +1,71 @@
+header{
+  height: 150px;
+ background-color: rgb(17, 17, 79); 
+}
+
+.header-logo{
+  width:1280px;
+  margin: auto;
+}
+
+.sira{
+height: 100px;
+padding-top: 25px;
+        display: inline; 
+}
+.header-logo h3{
+  float: right;
+  color: aliceblue;
+  padding-top: 40px;
+}
+.products{
+  height: 500px;
+}
+ .bin{
+  height:360px;
+ }
+ .deba{
+  height: 360px;
+ }
+ .coming{
+   height: 360px;
+  padding-right: 50px;
+ }
+.nana{
+  width: 150px;
+}
+.artist h3{
+  float: left;
+}
+.artist p{
+  padding-top: 30px;
+}
+.artist-nana{
+align-items: center;
+ justify-content: center;
+display: flex;
+}
+
+.artist{
+  height: 500px;
+}
+ li{
+   list-style: none;
+}
+.contuct{
+  margin: auto;
+}
+.contact p{
+  font-size: larger;
+  color:blue
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.link{
+  display: block;
+  background-color:rgb(17, 17, 79) ;
+  color: aliceblue;
+  padding: 5px;
+}
