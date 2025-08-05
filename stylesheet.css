@@ -21,8 +21,9 @@ padding-left: 10px;
   padding-right: 30px;
 }
 .products{
-  height: 1000px;
+  height: 400px;
 }
+
  .bin{
   height:360px;
  }
@@ -54,16 +55,24 @@ display: flex;
  li{
    list-style: none;
 }
-.contuct{
-  margin: auto;
+.contact{
+  margin-top:100px;
 }
+
 .contact p{
   font-size: larger;
   color:blue
   align-items: center;
   justify-content: center;
   display: flex;
-  
+}
+@media (max-width:1000px){
+  .contact{
+  margin-top:800px;}
+}
+@media (max-width:670px){
+  .contact{
+  margin-top:1200px;}
 }
 .link{
   display: block;
