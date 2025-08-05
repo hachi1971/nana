@@ -20,6 +20,10 @@ padding-left: 10px;
   padding-top: 40px;
   padding-right: 30px;
 }
+@media (max-width:670px){
+  .header-logo h3{
+  font-size: xx-large;}
+}
 .products{
   height: 400px;
 }
@@ -38,10 +42,12 @@ padding-left: 10px;
   width: 150px;
 }
 .artist h3{
+  font-size: 30px;
   float: left;
 }
 .artist p{
   padding-top: 30px;
+  font-size: 20px;
 }
 .artist-nana{
 
@@ -54,13 +60,14 @@ display: flex;
 }
  li{
    list-style: none;
+   font-size: 20px;
 }
 .contact{
   margin-top:100px;
 }
 
 .contact p{
-  font-size: larger;
+  font-size:20px;
   color:blue
   align-items: center;
   justify-content: center;
@@ -73,6 +80,8 @@ display: flex;
 @media (max-width:670px){
   .contact{
   margin-top:1200px;}
+  .contact p{
+  font-size:30px;}
 }
 .link{
   display: block;
