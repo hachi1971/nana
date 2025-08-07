@@ -25,8 +25,10 @@ display: inline; }
 .contents1{height:600px;
    width: 75%;}
 @media (max-width:670px) {
-    .contents1{
-    width: 60%;}
+    .contents1{width: 60%;}
+     .bin{width: 100%;}
+ .deba{width: 100%;}
+ .coming{width: 100%;}
   }
  .bin{width: 30%;}
  .deba{width: 30%;}
@@ -53,18 +55,18 @@ padding-left: 50px;}
  li{list-style: none;
    font-size: 16px;}
 .contact{margin-top:100px;}
-.contact p{font-size:20px;
+.contact h3{font-size:20px;
   color:blue
   align-items: center;
   justify-content: center;
   display: flex;}
 
-@media (max-width:1000px;){
-  .contact{margin-top:800px;}}
 
-@media (max-width:670px;){
-  .contact{margin-top:1200px;}
-  .contact p{font-size:30px;}}
+
+@media (max-width:670px){
+  .contact{margin-top:100px;}
+  .contact h3{font-size:30px;}
+}
 .link{display: block;
   background-color:rgb(17, 17, 79) ;
   color: aliceblue;
