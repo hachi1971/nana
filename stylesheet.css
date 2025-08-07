@@ -24,6 +24,10 @@ display: inline; }
 
 .contents1{height:600px;
    width: 75%;}
+@media (max-width:670px) {
+    .contents1{
+    width: 60%;}
+  }
  .bin{width: 30%;}
  .deba{width: 30%;}
  .coming{width: 30%;;
@@ -31,9 +35,13 @@ display: inline; }
 
   .contents2{height:600px;
    width: 25%;}
+    @media (max-width:670px) {
+      .contents2{
+    width: 40%;}
+  }
 .nana{width: 50%;
-  
 padding-left: 50px;}
+
 .contents2 h1{font-size: 30px;
     margin-bottom:0;
     margin-left: 30px;}
