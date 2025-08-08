@@ -22,10 +22,10 @@ display: inline; }
   margin: auto;
 }
 
-.contents1{height:600px;
+.contents1{height:800px;
    width: 75%;}
      
- .bin{max-width: 35%;}
+ .bin{max-width: 50%;}
  .deba{max-width: 30%;}
  .coming{max-width: 30%;
   padding-right: 10px;}
@@ -33,7 +33,7 @@ display: inline; }
 @media screen and (max-width:767px) {.contents1{width:65%;}}
 @media screen and (max-width:767px) {.bin{width:100px;height: auto;}}
 @media screen and (max-width:767px) {.deba{width:100px;height: auto;}}
-@media screen and (max-width:767px) {.coming{width:100px;height: auto;}}
+@media screen and (max-width:767px) {.deba2{width:100px;height: auto;}}
 
 .contents2{height:600px;width: 25%;}
 @media screen and (max-width:767px) {.contents2{width:35%;}}
