@@ -36,7 +36,7 @@ display: inline; }
 @media screen and (max-width:1000px) {.de{width:10px;height: auto;}}
 
 .contents2{height:600px;width: 25%;}
-@media screen and (max-width:767px) {.contents2{width:35%;}}
+@media screen and (max-width:1000px) {.contents2{width:35%;}}
 .nana{width: 50%;padding-left: 50px;}
 
 .contents2 h1{font-size: 30px;
